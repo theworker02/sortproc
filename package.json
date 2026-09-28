@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sortproc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sort config/proc key checks for twelve-factor services.",
+  "bin": {
+    "sortproc": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sortproc.git"
+  },
+  "homepage": "https://theworker02.github.io/sortproc/",
+  "keywords": [
+    "sort",
+    "proc",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
